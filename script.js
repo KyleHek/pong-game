@@ -9,7 +9,7 @@ const computerScoreElem = document.getElementById("computer-score")
 const startGameElem = document.getElementById("start-game")
 
 // Event listener for keypress to then start the game
-document.addEventListener("keydown", handleStart, { once: true})
+document.addEventListener("click", handleStart, { once: true})
 
 // Update Loop
 let lastTime
